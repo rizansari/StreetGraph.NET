@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Rizwan Ansari</Authors>
+    <Description>Street Graphs to create and manage graphs, calculate shortest path, calculate transit speed and more</Description>
+    <PackageProjectUrl>http://rizwanansari.net</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/rizansari/StreetGraph.NET</RepositoryUrl>
+    <PackageTags>street, street graph, road graph, shortest path, dijkstra, journey time</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="ShortestPath\" />
+  </ItemGroup>
+
+</Project>
